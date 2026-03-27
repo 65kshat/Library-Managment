@@ -15,9 +15,9 @@ def speak(text):
 def connect():
     return mysql.connector.connect(
         host = "localhost",
-        user = "root",
-        password = "rasengan",
-        database = "library"
+        user = "--enter-user-here--",
+        password = "--enter-password-here--",
+        database = "--enter-database-here--"
         )
 
 def add_book(title, author, year, genre):
