@@ -1,0 +1,13 @@
+Please run this query in your MySQL:
+
+CREATE DATABASE IF NOT EXISTS library;
+
+USE library;
+
+CREATE TABLE books (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    author VARCHAR(255) NOT NULL,
+    year INT,
+    genre VARCHAR(100)
+);
